@@ -37,7 +37,7 @@ export const projects = [
     img: "/E-Commerce.jpeg",
     iconsList: ["/react.svg", "/js.svg", "/tailwind.svg", "/framer-motion.svg"],
     link: "https://marwanabdalr.github.io/E-Commerce/",
-    sourceCode: "https://github.com/Alaa-Eldeyn/progo-websitehttps://github.com/MarwanabdalR/E-Commerce",
+    sourceCode: "https://github.com/MarwanabdalR/E-Commerce",
   },
   {
     id: 1,
