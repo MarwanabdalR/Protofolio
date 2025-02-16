@@ -64,7 +64,7 @@ export const projects = [
     img: "/movemate.jpeg",
     iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
     link: "https://2movemate.netlify.app/",
-    sourceCode: "https://github.com/Alaa-Eldeyn/Movemate",
+    sourceCode: "https://github.com/MarwanabdalR",
   },
 ];
 
