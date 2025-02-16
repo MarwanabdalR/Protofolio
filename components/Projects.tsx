@@ -66,7 +66,7 @@ function Projects() {
           ))}
         </div>
           <div className="flex items-center justify-center mt-5">
-            <Link href={"https://github.com/Alaa-Eldeyn"} target="_Blank">
+            <Link href={"https://github.com/MarwanabdalR"} target="_Blank">
               <MagicButton
                 title="View All Projects"
                 icon={<FaLocationArrow />}
