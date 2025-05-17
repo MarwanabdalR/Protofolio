@@ -26,7 +26,7 @@ import {
 import { z } from "zod";
 
 export const cvUrl =
-  "https://drive.google.com/file/d/1Q5dy5ZE6dTgcnyATKSsTAg7d-heiAIUx/view?usp=sharing";
+  "https://docs.google.com/document/d/1DVefOamq6Kd0K5_aVu_cNVd2EL6jaDxW/edit?usp=sharing&ouid=100997610333777343282&rtpof=true&sd=true";
 
 
 export const projects = [
