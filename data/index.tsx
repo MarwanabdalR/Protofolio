@@ -61,7 +61,7 @@ export const projects = [
     id: 2,
     title: "E-prova - Fashion AI App",
     des: "E-Prova is a platform for how you present yourself to the world, especially today, when human communication is so fast. Fashion is an instant language. Fashion is the armor to survive the reality of everyday life.",
-    img: "/e-prova.jpeg",
+    img: "/e-prova.png",
     iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
     link: "https://e-prova-ten.vercel.app/e-prova/home",
     sourceCode: "https://github.com/MarwanabdalR/GraduationProject/tree/main/E-ProvaUI",
