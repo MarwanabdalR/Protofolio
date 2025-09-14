@@ -54,8 +54,8 @@ export const projects = [
     des: "تطبيق ويب بسيط ومفيد لمتابعة الأموال الشخصية باللغة العربية. يساعدك على تتبع أرصدتك الأسبوعية وحساب المكاسب والخسائر بسهولة.",
     img: "/Macbook-Air-1559x975.png",
     iconsList: ["/vercel.svg", "/js.svg", "/tailwind.svg", "/framer-motion.svg"],
-    link: "https://marwanabdalr.github.io/Fokir/",
-    sourceCode: "https://github.com/MarwanabdalR/Fokir",
+    link: "https://finance-tracker-nine-self.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/finance-tracker",
   },
   {
     id: 1,
