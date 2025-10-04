@@ -32,19 +32,28 @@ export const cvUrl =
 export const projects = [
   {
     id: 3,
-    title: "E-commerce Website",
-    des: "🚀 Building a Scalable E-Commerce Platform with React & APIs 🛒Excited to share my latest project: E-Commerce, a full-fledged online shopping platform built with React, APIs, and a robust tech stack to deliver an optimized, user-friendly experience. 🎯",
-    img: "/E-Commerce.jpeg",
-    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg", "/framer-motion.svg"],
-    link: "https://marwanabdalr.github.io/E-Commerce/",
-    sourceCode: "https://github.com/MarwanabdalR/E-Commerce",
+    title: "Sales Dashboard",
+    des: "A modern, interactive sales dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This project demonstrates atomic design principles and provides comprehensive data visualization capabilities.",
+    img: "/salseDashboard.png",
+    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
+    link: "https://assement-alpha.vercel.app/",
+    sourceCode: "https://assement-alpha.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "E-prova - Fashion AI App",
+    des: "E-Prova is a platform for how you present yourself to the world, especially today, when human communication is so fast. Fashion is an instant language. Fashion is the armor to survive the reality of everyday life.",
+    img: "/e-prova.png",
+    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
+    link: "https://e-prova-ten.vercel.app/e-prova/home",
+    sourceCode: "https://github.com/MarwanabdalR/GraduationProject/tree/main/E-ProvaUI",
   },
   {
     id: 2,
     title: "Book Marker Website",
     des: "The BookMarker project is a simple web-based application designed to help users save and manage their favorite website links. It provides a user-friendly interface for adding, storing, and deleting bookmarks.",
     img: "/BookManger.png",
-    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
+    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg"],
     link: "https://marwanabdalr.github.io/BookMarker/",
     sourceCode: "https://github.com/MarwanabdalR/BookMarker",
   },
@@ -57,15 +66,7 @@ export const projects = [
     link: "https://finance-tracker-nine-self.vercel.app/",
     sourceCode: "https://github.com/MarwanabdalR/finance-tracker",
   },
-  {
-    id: 1,
-    title: "E-prova - Fashion AI App",
-    des: "E-Prova is a platform for how you present yourself to the world, especially today, when human communication is so fast. Fashion is an instant language. Fashion is the armor to survive the reality of everyday life.",
-    img: "/e-prova.png",
-    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
-    link: "https://e-prova-ten.vercel.app/e-prova/home",
-    sourceCode: "https://github.com/MarwanabdalR/GraduationProject/tree/main/E-ProvaUI",
-  },
+
 ];
 
 const date = new Date();
