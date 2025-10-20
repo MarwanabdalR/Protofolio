@@ -31,13 +31,13 @@ export const cvUrl =
 
 export const projects = [
   {
-    id: 1,
-    title: "Sales Dashboard",
-    des: "A modern, interactive sales dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This project demonstrates atomic design principles and provides comprehensive data visualization capabilities.",
-    img: "/salseDashboard.png",
-    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
-    link: "https://assement-alpha.vercel.app/",
-    sourceCode: "https://assement-alpha.vercel.app/",
+    id: 5,
+    title: "Smarter AI GitHub API Integration",
+    des: "A comprehensive Next.js application that provides intelligent GitHub profile analysis, user comparison, and note-taking capabilities. Built with modern web technologies and AI-powered insights.",
+    img: "/Macbook-Pro-16-2110x1286.png",
+    iconsList: ["/vercel.svg", "/ts.svg", "/tailwind.svg", "/next.svg"],
+    link: "https://smarter-ai-github-api-integration.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/smarter_ai_github_api_integration",
   },
   {
     id: 2,
@@ -49,13 +49,13 @@ export const projects = [
     sourceCode: "https://github.com/MarwanabdalR/GraduationProject/tree/main/E-ProvaUI",
   },
   {
-    id: 3,
-    title: "Book Marker Website",
-    des: "The BookMarker project is a simple web-based application designed to help users save and manage their favorite website links. It provides a user-friendly interface for adding, storing, and deleting bookmarks.",
-    img: "/BookManger.png",
-    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg"],
-    link: "https://marwanabdalr.github.io/BookMarker/",
-    sourceCode: "https://github.com/MarwanabdalR/BookMarker",
+    id: 1,
+    title: "Sales Dashboard",
+    des: "A modern, interactive sales dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This project demonstrates atomic design principles and provides comprehensive data visualization capabilities.",
+    img: "/salseDashboard.png",
+    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
+    link: "https://assement-alpha.vercel.app/",
+    sourceCode: "https://assement-alpha.vercel.app/",
   },
   {
     id: 4,
@@ -67,13 +67,13 @@ export const projects = [
     sourceCode: "https://github.com/MarwanabdalR/finance-tracker",
   },
   {
-    id: 5,
-    title: "Smarter AI GitHub API Integration",
-    des: "A comprehensive Next.js application that provides intelligent GitHub profile analysis, user comparison, and note-taking capabilities. Built with modern web technologies and AI-powered insights.",
-    img: "/Macbook-Pro-16-2110x1286.png",
-    iconsList: ["/vercel.svg", "/ts.svg", "/tailwind.svg", "/next.svg"],
-    link: "https://smarter-ai-github-api-integration.vercel.app/",
-    sourceCode: "https://github.com/MarwanabdalR/smarter_ai_github_api_integration",
+    id: 3,
+    title: "Book Marker Website",
+    des: "The BookMarker project is a simple web-based application designed to help users save and manage their favorite website links. It provides a user-friendly interface for adding, storing, and deleting bookmarks.",
+    img: "/BookManger.png",
+    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg"],
+    link: "https://marwanabdalr.github.io/BookMarker/",
+    sourceCode: "https://github.com/MarwanabdalR/BookMarker",
   },
 
 ];
