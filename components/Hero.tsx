@@ -39,7 +39,7 @@ const Hero = () => {
           />
           <FadeText
             className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"
-            text="Hi! I'm Marwan Abdalrady, a Front-End Developer with React & Next.js"
+            text="Hi! I'm Marwan Abdalrady, a FULL-STACK Developer with React,Next.js & Node.js,Nest.js"
             direction="up"
             framerProps={{
               show: { transition: { delay: 0.3 } },

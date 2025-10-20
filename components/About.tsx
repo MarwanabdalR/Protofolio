@@ -25,7 +25,7 @@ function About() {
             </div>
             <div className="!leading-relaxed text-sm md:text-lg flex-1 text-start">
               <p>
-                I’m Marwan Abdalrady, an Agile Front-End Developer with an
+                I’m Marwan Abdalrady, an Agile FULL-STACK Developer with an
                 experience in designing and developing scalable websites and
                 dashboards. I specialize in creating dynamic, responsive user
                 interfaces with a strong focus on performance optimization and

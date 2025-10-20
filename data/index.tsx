@@ -26,12 +26,12 @@ import {
 import { z } from "zod";
 
 export const cvUrl =
-  "https://drive.google.com/file/d/1QJGKeVV5f7pdg-VPTEWgJ_O6X7yChkhR/view?usp=drive_link";
+  "https://drive.google.com/file/d/1l_Zefj3IrIpjC7nYubiana7tPkoc3Trc/view?usp=sharing";
 
 
 export const projects = [
   {
-    id: 3,
+    id: 1,
     title: "Sales Dashboard",
     des: "A modern, interactive sales dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This project demonstrates atomic design principles and provides comprehensive data visualization capabilities.",
     img: "/salseDashboard.png",
@@ -40,16 +40,16 @@ export const projects = [
     sourceCode: "https://assement-alpha.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "E-prova - Fashion AI App",
     des: "E-Prova is a platform for how you present yourself to the world, especially today, when human communication is so fast. Fashion is an instant language. Fashion is the armor to survive the reality of everyday life.",
     img: "/e-prova.png",
-    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/framer-motion.svg"],
+    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg", "/framer-motion.svg"],
     link: "https://e-prova-ten.vercel.app/e-prova/home",
     sourceCode: "https://github.com/MarwanabdalR/GraduationProject/tree/main/E-ProvaUI",
   },
   {
-    id: 2,
+    id: 3,
     title: "Book Marker Website",
     des: "The BookMarker project is a simple web-based application designed to help users save and manage their favorite website links. It provides a user-friendly interface for adding, storing, and deleting bookmarks.",
     img: "/BookManger.png",
@@ -65,6 +65,15 @@ export const projects = [
     iconsList: ["/vercel.svg", "/js.svg", "/tailwind.svg", "/framer-motion.svg"],
     link: "https://finance-tracker-nine-self.vercel.app/",
     sourceCode: "https://github.com/MarwanabdalR/finance-tracker",
+  },
+  {
+    id: 5,
+    title: "Smarter AI GitHub API Integration",
+    des: "A comprehensive Next.js application that provides intelligent GitHub profile analysis, user comparison, and note-taking capabilities. Built with modern web technologies and AI-powered insights.",
+    img: "/Macbook-Pro-16-2110x1286.png",
+    iconsList: ["/vercel.svg", "/ts.svg", "/tailwind.svg", "/next.svg"],
+    link: "https://smarter-ai-github-api-integration.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/smarter_ai_github_api_integration",
   },
 
 ];
