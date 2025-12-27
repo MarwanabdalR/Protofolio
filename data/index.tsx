@@ -26,7 +26,7 @@ import {
 import { z } from "zod";
 
 export const cvUrl =
-  "https://drive.google.com/file/d/1l_Zefj3IrIpjC7nYubiana7tPkoc3Trc/view?usp=sharing";
+  "https://docs.google.com/document/d/11g_gs7i3fCs8wBY5DlK8ateqVeNI_Qko/edit?usp=sharing&ouid=100997610333777343282&rtpof=true&sd=true";
 
 
 export const projects = [
@@ -75,6 +75,15 @@ export const projects = [
     link: "https://marwanabdalr.github.io/BookMarker/",
     sourceCode: "https://github.com/MarwanabdalR/BookMarker",
   },
+  {
+    id: 6,
+    title: "Web Builder",
+    des: "A user-friendly web builder application that allows users to create and customize their own websites with ease. Built with Next.js, TypeScript, and Node.js.",
+    img: "/webbuilder.PNG",
+    iconsList: ["/next.svg", "/ts.svg", "/node.svg"],
+    link: "https://web-builder-b1glrildp-marwans-projects-3f5c5d0c.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/Web-Builder",
+  }
 
 ];
 
