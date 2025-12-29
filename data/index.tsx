@@ -31,6 +31,15 @@ export const cvUrl =
 
 export const projects = [
   {
+    id: 7,
+    title: "Restaurant Buzzer",
+    des: "The goal was to build a solution that handles everything from real-time ordering to restaurant management, ensuring a seamless experience for both customers and admins.",
+    img: "/Dashboard.PNG",
+    iconsList: ["/react.svg", "/ts.svg", "/tailwind.svg", "/node.svg"],
+    link: "https://buzzer-restaurant-hyqkxh78h-marwans-projects-3f5c5d0c.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/Buzzer-Restaurant",
+  },
+  {
     id: 5,
     title: "Smarter AI GitHub API Integration",
     des: "A comprehensive Next.js application that provides intelligent GitHub profile analysis, user comparison, and note-taking capabilities. Built with modern web technologies and AI-powered insights.",
