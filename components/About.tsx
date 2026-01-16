@@ -15,7 +15,7 @@ function About() {
           <div className="flex gap-x-10 gap-y-5 flex-col items-center md:items-start text-center md:text-start md:flex-row w-full font-cairo">
             <div className="rounded-full overflow-hidden size-32 sm:!size-60">
               <Image
-                src="/ME.JPG"
+                src="/me2.jpeg"
                 alt="Marwan Abdalrady"
                 width={400}
                 height={400}
@@ -25,13 +25,9 @@ function About() {
             </div>
             <div className="!leading-relaxed text-sm md:text-lg flex-1 text-start">
               <p>
-                I’m Marwan Abdalrady, an Agile FULL-STACK Developer with an
-                experience in designing and developing scalable websites and
-                dashboards. I specialize in creating dynamic, responsive user
-                interfaces with a strong focus on performance optimization and
-                user-centered designs. My goal help businesses achieve their
-                goals. I stay up-to-date with the latest development tools to
-                ensure I deliver cutting-edge web applications.
+                I’m Marwan Abdalrady, MERN Stack Developer skilled in React.js, Next.js, and Node.js, 
+                with additional expertise in automation scripting using Python and Selenium. Passionate about building 
+                scalable applications and automation systems.
               </p>
               <div className="flex flex-col md:flex-row flex-wrap gap-10 mt-5 w-full justify-between">
                 {aboutData.map((item, i) => (
