@@ -7,11 +7,17 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
+interface Skill {
+  id: number;
+  icon: React.ReactNode;
+  text: string;
+}
+
 function Skills() {
   const [showAllGeneral, setShowAllGeneral] = useState(false);
   const generalSkillsToShow = showAllGeneral ? skillsCategories.general : skillsCategories.general.slice(0, 6);
 
-  const renderSkillCard = (skill: any, index: number) => (
+  const renderSkillCard = (skill: Skill, index: number) => (
     <motion.div
       key={skill.id}
       initial={{ opacity: 0, y: 20 }}

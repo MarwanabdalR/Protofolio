@@ -79,6 +79,15 @@ export const projects = [
     sourceCode: "https://assement-alpha.vercel.app/",
   },
   {
+    id: 6,
+    title: "Web Builder",
+    des: "A user-friendly web builder application that allows users to create and customize their own websites with ease. Built with Next.js, TypeScript, and Node.js.",
+    img: "/webbuilder.PNG",
+    iconsList: ["/next.svg", "/ts.svg", "/node.svg"],
+    link: "https://web-builder-b1glrildp-marwans-projects-3f5c5d0c.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/Web-Builder",
+  },
+  {
     id: 4,
     title: "متتبع الاموال",
     des: "تطبيق ويب بسيط ومفيد لمتابعة الأموال الشخصية باللغة العربية. يساعدك على تتبع أرصدتك الأسبوعية وحساب المكاسب والخسائر بسهولة.",
@@ -95,15 +104,6 @@ export const projects = [
     iconsList: ["/react.svg", "/js.svg", "/tailwind.svg"],
     link: "https://marwanabdalr.github.io/BookMarker/",
     sourceCode: "https://github.com/MarwanabdalR/BookMarker",
-  },
-  {
-    id: 6,
-    title: "Web Builder",
-    des: "A user-friendly web builder application that allows users to create and customize their own websites with ease. Built with Next.js, TypeScript, and Node.js.",
-    img: "/webbuilder.PNG",
-    iconsList: ["/next.svg", "/ts.svg", "/node.svg"],
-    link: "https://web-builder-b1glrildp-marwans-projects-3f5c5d0c.vercel.app/",
-    sourceCode: "https://github.com/MarwanabdalR/Web-Builder",
   }
 
 ];
