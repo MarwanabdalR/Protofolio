@@ -47,7 +47,7 @@ export const projects = [
     title: "Restaurant Buzzer",
     des: "The goal was to build a solution that handles everything from real-time ordering to restaurant management, ensuring a seamless experience for both customers and admins.",
     img: "/Dashboard.PNG",
-    iconsList: ["/react.svg", "/ts.svg", "/tailwind.svg", "/node.svg"],
+    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg", "/node.svg"],
     link: "https://buzzer-restaurant-hyqkxh78h-marwans-projects-3f5c5d0c.vercel.app/",
     sourceCode: "https://github.com/MarwanabdalR/Buzzer-Restaurant",
   },
