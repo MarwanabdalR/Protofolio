@@ -6,6 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema } from "@/data";
 import { ShineBorder } from "./ui/ShineBorder";
 import Link from "next/link";
+import { useState } from "react";
 
 function Contact() {
   type ContactType = z.infer<typeof contactSchema>;
@@ -13,24 +14,37 @@ function Contact() {
     handleSubmit,
     register,
     getValues,
+    reset,
     formState: { errors, isSubmitting },
   } = useForm<ContactType>({
     resolver: zodResolver(contactSchema),
   });
 
+  const [successMessage, setSuccessMessage] = useState<string>("");
+
   const handleContact = async () => {
     try {
-      await fetch("api/send", {
+      setSuccessMessage(""); // Clear any previous messages
+      const response = await fetch("api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(getValues()),
-      })
-        .then((res) => res.json())
-        .then((data) => console.log(data));
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage("✅ Message sent successfully! We'll get back to you soon.");
+        reset(); // Clear the form
+        setTimeout(() => setSuccessMessage(""), 5000); // Clear success message after 5 seconds
+      } else {
+        setSuccessMessage("❌ Failed to send message. Please try again.");
+      }
     } catch (error) {
       console.error("Error sending contact request:", error);
+      setSuccessMessage("❌ An error occurred. Please try again later.");
     }
   };
 
@@ -268,10 +282,21 @@ function Contact() {
               )}
             </div>
 
+            {successMessage && (
+              <div
+                className={`mb-4 p-4 rounded-lg text-center font-medium ${successMessage.includes("✅")
+                    ? "bg-green-500/20 text-green-400 border border-green-500/50"
+                    : "bg-red-500/20 text-red-400 border border-red-500/50"
+                  }`}
+              >
+                {successMessage}
+              </div>
+            )}
+
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-gradient-to-r from-[#A07CFE] to-[#da4478] text-white py-3 px-4 rounded-[12px] shadow focus:outline-none"
+              className="w-full bg-gradient-to-r from-[#A07CFE] to-[#da4478] text-white py-3 px-4 rounded-[12px] shadow focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
             >
               {isSubmitting ? (
                 <>
