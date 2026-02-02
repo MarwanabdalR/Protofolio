@@ -41,7 +41,7 @@ function Projects() {
                             transform: `translateX(-${5 * index + 2}px)`,
                           }}
                         >
-                          <img src={icon} alt="icon5" className="p-2"/>
+                          <Image src={icon} alt={`icon-${index}`} width={40} height={40} className="p-2" />
                         </div>
                       ))}
                     </div>
@@ -65,15 +65,15 @@ function Projects() {
             </MagicCard>
           ))}
         </div>
-          <div className="flex items-center justify-center mt-5">
-            <Link href={"https://github.com/MarwanabdalR"} target="_Blank">
-              <MagicButton
-                title="View All Projects"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </Link>
-          </div>
+        <div className="flex items-center justify-center mt-5">
+          <Link href={"https://github.com/MarwanabdalR"} target="_Blank">
+            <MagicButton
+              title="View All Projects"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </Link>
+        </div>
       </div>
     </section>
   );

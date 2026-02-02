@@ -33,8 +33,6 @@ function Contact() {
         body: JSON.stringify(getValues()),
       });
 
-      const data = await response.json();
-
       if (response.ok) {
         setSuccessMessage("✅ Message sent successfully! We'll get back to you soon.");
         reset(); // Clear the form
@@ -285,8 +283,8 @@ function Contact() {
             {successMessage && (
               <div
                 className={`mb-4 p-4 rounded-lg text-center font-medium ${successMessage.includes("✅")
-                    ? "bg-green-500/20 text-green-400 border border-green-500/50"
-                    : "bg-red-500/20 text-red-400 border border-red-500/50"
+                  ? "bg-green-500/20 text-green-400 border border-green-500/50"
+                  : "bg-red-500/20 text-red-400 border border-red-500/50"
                   }`}
               >
                 {successMessage}
