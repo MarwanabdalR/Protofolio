@@ -107,14 +107,13 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Book Marker Website",
-    des: "The BookMarker project is a simple web-based application designed to help users save and manage their favorite website links. It provides a user-friendly interface for adding, storing, and deleting bookmarks.",
-    img: "/BookManger.png",
-    iconsList: ["/react.svg", "/js.svg", "/tailwind.svg"],
-    link: "https://marwanabdalr.github.io/BookMarker/",
-    sourceCode: "https://github.com/MarwanabdalR/BookMarker",
+    title: "MAGG LANDING PAGE",
+    des: "A landing page for MAGG company. Built with Next.js, TypeScript",
+    img: "/WEB.png",
+    iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg"],
+    link: "https://magg-five.vercel.app/",
+    sourceCode: "https://github.com/MarwanabdalR/MAGG",
   }
-
 ];
 
 const date = new Date();
