@@ -109,7 +109,7 @@ export const projects = [
     id: 8,
     title: "MAGG LANDING PAGE",
     des: "A landing page for MAGG company. Built with Next.js, TypeScript",
-    img: "/WEB.png",
+    img: "/web.PNG",
     iconsList: ["/next.svg", "/ts.svg", "/tailwind.svg"],
     link: "https://magg-five.vercel.app/",
     sourceCode: "https://github.com/MarwanabdalR/MAGG",
